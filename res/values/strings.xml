@@ -30,4 +30,5 @@
     <string name="firstTime">You are using Yandex Wallet for the first time. You need to authorize this application and receive access token from Yandex. After authorization app will be restarted.</string>
     <string name="firstRunNote">This is a first time you are starting this application. You need to authorize application at Yandex. Press \'Login\' to proceed.</string>
     <string name="login">Login</string>
+    <string name="clear">Clear token storage</string>
 </resources>
