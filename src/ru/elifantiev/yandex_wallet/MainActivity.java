@@ -28,9 +28,9 @@ import ru.elifantiev.yandex.api.money.YandexMoneyAccountInfo;
 import ru.elifantiev.yandex.api.money.YandexMoneyOperationHistory;
 import ru.elifantiev.yandex.api.money.YandexMoneyService;
 import ru.elifantiev.yandex.oauth.AccessToken;
-import ru.elifantiev.yandex.oauth.EncryptedSharedPreferencesStorage;
-import ru.elifantiev.yandex.oauth.EncryptedStorageException;
-import ru.elifantiev.yandex.oauth.SharedPreferencesStorage;
+import ru.elifantiev.yandex.oauth.tokenstorage.impl.EncryptedSharedPreferencesStorage;
+import ru.elifantiev.yandex.oauth.tokenstorage.impl.EncryptedStorageException;
+import ru.elifantiev.yandex.oauth.tokenstorage.impl.SharedPreferencesStorage;
 import ru.elifantiev.yandex_wallet.adapter.OperationsAdapter;
 import ru.elifantiev.yandex_wallet.pincode.PinCodeHolder;
 

@@ -25,6 +25,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import ru.elifantiev.yandex.api.money.YandexMoneyPermissions;
 import ru.elifantiev.yandex.oauth.*;
+import ru.elifantiev.yandex.oauth.tokenstorage.AccessTokenStorage;
+import ru.elifantiev.yandex.oauth.tokenstorage.impl.EncryptedSharedPreferencesStorage;
 import ru.elifantiev.yandex_wallet.pincode.PinCodeHolder;
 
 public class AuthActivity extends OAuthActivity {
